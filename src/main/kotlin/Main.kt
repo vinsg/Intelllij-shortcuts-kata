@@ -1,10 +1,4 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
-
 
     // Search Everywhere
     /*
@@ -24,5 +18,34 @@ fun main(args: Array<String>) {
     }
     error()
 
+    // Navigate to the next issue
+    /*
+    Answer:
+    F2 to navigate to the next suggestion/issue.
+     */
+    fun errorNavigate(): HashMap<Int, String> {
+        val strings: HashMap<Int, String> = HashMap<Int, String>
+        return strings
+    }
+    errorNavigate()
+
+    // Open side tool window
+    /*
+    Answer:
+    ⌘+1 Focus the Project tool window
+     */
+
+    // View recent opened files
+    /*
+    Answer:
+    ⌘+E View recent files
+     */
+
+    // Go to declaration
+    /*
+    Answer:
+    ⌘+B Go To Declaration
+     */
+    val hello: Exception = java.lang.Exception()
 
 }
