@@ -48,4 +48,46 @@ fun main(args: Array<String>) {
      */
     val hello: Exception = java.lang.Exception()
 
+    // Find all usage
+    /*
+    Answer:
+    alt + F7
+     */
+
+    // Shrink and expand selection
+    /*
+    Answer:
+    ⌥ + ↑ or ⌥ + ↓
+     */
+    fun fooBar() {
+        if(emptyList<String>().isEmpty()){
+            val one = 1
+            println(one)
+        }
+    }
+
+    // Write an if loop and use complete selection to jump into function body.
+    /*
+    Answer:
+    cmd + shift + enter
+     */
+
+    // Reformat current file
+    /*
+    Answer:
+    alt + cmd + L
+     */
+    fun barfoo() {println("haa")}
+
+    // Bring up refactor menu
+    /*
+    Answer:
+    ctrl + t
+     */
+    val bar = "world"
+    if (bar == "world") {
+
+    }
+
+
 }
