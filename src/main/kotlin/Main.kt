@@ -53,6 +53,7 @@ fun main(args: Array<String>) {
     Answer:
     alt + F7
      */
+    errorNavigate()
 
     // Shrink and expand selection
     /*
@@ -71,6 +72,7 @@ fun main(args: Array<String>) {
     Answer:
     cmd + shift + enter
      */
+
 
     // Reformat current file
     /*
