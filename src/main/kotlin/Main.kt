@@ -73,7 +73,6 @@ fun main(args: Array<String>) {
     cmd + shift + enter
      */
 
-
     // Reformat current file
     /*
     Answer:
@@ -91,5 +90,15 @@ fun main(args: Array<String>) {
 
     }
 
+    // Go back to previous location
+    /*
+    Answer:
+    ⌘ + [
+     */
 
+    // Fold and unfold comments
+    /*
+    Answer:
+    ⌘ + - and ⌘ + =
+     */
 }
