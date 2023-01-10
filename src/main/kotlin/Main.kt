@@ -101,4 +101,21 @@ fun main(args: Array<String>) {
     Answer:
     ⌘ + - and ⌘ + =
      */
+
+
+    // Move line up and down
+    /*
+    Answer:
+    ⌥ + ⇧ + ↑ or ⌥ + ⇧ + ↓
+     */
+    val one = 1
+    val two = 2
+    val three = 3
+
+    // Move cursor between words
+    /*
+    Answer:
+    ⌥ + → or ⌥ + ←
+     */
+    val move = "between words"
 }
