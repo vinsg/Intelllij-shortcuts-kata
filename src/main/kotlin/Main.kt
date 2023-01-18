@@ -61,7 +61,7 @@ fun main(args: Array<String>) {
     ⌥ + ↑ or ⌥ + ↓
      */
     fun fooBar() {
-        if(emptyList<String>().isEmpty()){
+        if (emptyList<String>().isEmpty()) {
             val one = 1
             println(one)
         }
@@ -102,7 +102,6 @@ fun main(args: Array<String>) {
     ⌘ + - and ⌘ + =
      */
 
-
     // Move line up and down
     /*
     Answer:
@@ -118,4 +117,21 @@ fun main(args: Array<String>) {
     ⌥ + → or ⌥ + ←
      */
     val move = "between words"
+
+    // Select all occurrence of word
+    /*
+    Answer:
+    ⌃ + ⌘ + G
+     */
+
+    // Show parameter info for a function
+    /*
+    Answer:
+    ⌘ + p
+     */
+
+    // Quick Documentation lookup
+    /*
+    Answer: F1
+     */
 }
