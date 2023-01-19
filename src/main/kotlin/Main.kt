@@ -123,15 +123,18 @@ fun main(args: Array<String>) {
     Answer:
     ⌃ + ⌘ + G
      */
+    move
 
     // Show parameter info for a function
     /*
     Answer:
     ⌘ + p
      */
+    println()
 
     // Quick Documentation lookup
     /*
-    Answer: F1
+    Answer:
+    F1
      */
 }
