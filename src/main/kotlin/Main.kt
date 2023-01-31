@@ -18,6 +18,12 @@ fun main(args: Array<String>) {
     }
     error()
 
+    // Toggle bookmark on this line
+    /*
+    Answer:
+    F3
+     */
+
     // Navigate to the next issue
     /*
     Answer:
@@ -133,8 +139,19 @@ fun main(args: Array<String>) {
     println()
 
     // Quick Documentation lookup
-    /*
+     /*
     Answer:
     F1
      */
+    println()
+
+    // move to start or end of code block
+    /*
+    Answer:
+    ⌥ + ⌘ + [ or ⌥ + ⌘ + ]
+     */
+}
+
+private fun hello(name: String){
+    println("hello $name")
 }
