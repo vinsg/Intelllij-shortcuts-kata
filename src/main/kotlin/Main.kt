@@ -4,7 +4,6 @@ fun main(args: Array<String>) {
     /*
      Answer:
      Double ⇧
-     Quickly find any file, action, symbol, tool window, or setting in IntelliJ IDEA, in your project, and in the current Git repository.
      */
 
     // Fix this
@@ -129,7 +128,7 @@ fun main(args: Array<String>) {
     Answer:
     ⌃ + G
      */
-    move
+    println()
 
     // Show parameter info for a function
     /*
@@ -151,14 +150,53 @@ fun main(args: Array<String>) {
     ⌥ + ⌘ + [ or ⌥ + ⌘ + ]
      */
 
+    // show the select in popup
+    /*
+    Answer:
+    ⌥ + f1
+     */
+
     // move cursor between functions
+    /*
+    Answer:
+    ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
+     */
 
+    // Show code structure
+    /*
+    Answer:
+    ⌘ + f12
+     */
 
-    // Display all the functions of a file
+    // Execute the current test
+    /*
+    Answer:
+     ⌃ + ⇧ + R
+     */
 
-    // Narrow search for a file to a particular subprojects
+    // make a multi-line edit
+    /*
+    Answer:
+    Column Selection Mode: ⇧ + ⌘ + 8
+    ⇧ + ↓ or ↑
+     */
+    val t2 = 2
+    val t1 = 1
+    val t3 = 3
 
-    //
+    // bring the emoji picker macos
+    /*
+    Answer:
+    ⌃ + ⌘ + space
+     */
+
+    // Delete a line
+    /*
+    Answer:
+    ⌘ + ⌫
+     */
+    val delete = "me"
+
 }
 
 private fun hello(name: String){
