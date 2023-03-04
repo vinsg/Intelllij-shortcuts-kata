@@ -124,10 +124,10 @@ fun main(args: Array<String>) {
      */
     val move = "between words"
 
-    // Select all occurrence of word
+    // Select next occurrence of word
     /*
     Answer:
-    ⌃ + ⌘ + G
+    ⌃ + G
      */
     move
 
@@ -150,6 +150,15 @@ fun main(args: Array<String>) {
     Answer:
     ⌥ + ⌘ + [ or ⌥ + ⌘ + ]
      */
+
+    // move cursor between functions
+
+
+    // Display all the functions of a file
+
+    // Narrow search for a file to a particular subprojects
+
+    //
 }
 
 private fun hello(name: String){
