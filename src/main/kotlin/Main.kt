@@ -151,8 +151,23 @@ fun main(args: Array<String>) {
     ⌥ + ⌘ + [ or ⌥ + ⌘ + ]
      */
 
-    // move cursor between functions
+    // show the select in popup
+    /*
+    Answer:
+    ⌥ + f1
+     */
 
+    // move cursor between functions
+    /*
+    Answer:
+    ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
+     */
+
+    // Show code structure
+    /*
+    Answer:
+    ⌘ + f12
+     */
 
     // Display all the functions of a file
 
