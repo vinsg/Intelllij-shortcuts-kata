@@ -40,6 +40,12 @@ fun main(args: Array<String>) {
     ⌘+1 Focus the Project tool window
      */
 
+    // Change window size
+    /*
+    Answer:
+    ⌃ + ⌥ + ← or ⌃ + ⌥ + →
+     */
+
     // View recent opened files
     /*
     Answer:
@@ -180,8 +186,8 @@ fun main(args: Array<String>) {
     Column Selection Mode: ⇧ + ⌘ + 8
     ⇧ + ↓ or ↑
      */
-    val t2 = 2
     val t1 = 1
+    val t2 = 2
     val t3 = 3
 
     // bring the emoji picker macos
@@ -196,6 +202,24 @@ fun main(args: Array<String>) {
     ⌘ + ⌫
      */
     val delete = "me"
+
+    // Bring git menu
+    /*
+    Answer:
+    ⌃ + v
+     */
+
+    // Build project
+    /*
+    Answer:
+    ⌘ + F9
+     */
+
+    // Paste using the history clipboard
+    /*
+    Answer:
+    ⇧ + ⌘ + V
+     */
 
 }
 
