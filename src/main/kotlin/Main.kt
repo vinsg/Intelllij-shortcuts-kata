@@ -62,7 +62,7 @@ fun main(args: Array<String>) {
     // Find all usage
     /*
     Answer:
-    alt + F7
+    ⌥ + F7
      */
     errorNavigate()
 
@@ -167,6 +167,7 @@ fun main(args: Array<String>) {
     Answer:
     ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
      */
+    fun fooBarWo() = "foo"
 
     // Show code structure
     /*
@@ -221,8 +222,15 @@ fun main(args: Array<String>) {
     ⇧ + ⌘ + V
      */
 
+    // Run any tasks
+    /*
+    Answer:
+    ⌃ + ⌃
+     */
+
 }
 
 private fun hello(name: String){
     println("hello $name")
+
 }
