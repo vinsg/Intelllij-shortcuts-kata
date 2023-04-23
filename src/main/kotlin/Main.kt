@@ -66,6 +66,12 @@ fun main(args: Array<String>) {
      */
     errorNavigate()
 
+    // Collapse bottom navigation bar
+    /*
+    Answer:
+    ⇧ + esc
+     */
+
     // Shrink and expand selection
     /*
     Answer:
@@ -81,20 +87,20 @@ fun main(args: Array<String>) {
     // Write an if loop and use complete selection to jump into function body.
     /*
     Answer:
-    cmd + shift + enter
+    ⌘ + ⇧ + ⏎
      */
 
     // Reformat current file
     /*
     Answer:
-    alt + cmd + L
+    ⌥ + ⌘ + l
      */
     fun barfoo() {println("haa")}
 
     // Bring up refactor menu
     /*
     Answer:
-    ctrl + t
+    ⌃ + t
      */
     val bar = "world"
     if (bar == "world") {
