@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
     // Go to declaration
     /*
     Answer:
-    ⌘+B Go To Declaration
+    ⌘ + B Go To Declaration
      */
     val hello: Exception = java.lang.Exception()
 
@@ -65,6 +65,12 @@ fun main(args: Array<String>) {
     ⌥ + F7
      */
     errorNavigate()
+
+    // Go to usage of function
+    /*
+    Answer:
+     ⌘ + B
+     */
 
     // Collapse bottom navigation bar
     /*
