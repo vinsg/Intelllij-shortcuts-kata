@@ -66,17 +66,18 @@ fun main(args: Array<String>) {
      */
     errorNavigate()
 
-    // Go to usage of function
-    /*
-    Answer:
-     ⌘ + B
-     */
-
     // Collapse bottom navigation bar
     /*
     Answer:
     ⇧ + esc
      */
+
+    // Go to usage of function
+    /*
+    Answer:
+     ⌘ + B
+     */
+    errorNavigate()
 
     // Shrink and expand selection
     /*
