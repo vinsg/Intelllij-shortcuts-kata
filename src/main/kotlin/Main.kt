@@ -17,12 +17,6 @@ fun main(args: Array<String>) {
     }
     error()
 
-    // Toggle bookmark on this line
-    /*
-    Answer:
-    F3
-     */
-
     // Navigate to the next issue
     /*
     Answer:
@@ -33,6 +27,12 @@ fun main(args: Array<String>) {
         return strings
     }
     errorNavigate()
+
+    // Toggle bookmark on this line
+    /*
+    Answer:
+    F3
+     */
 
     // Open side tool window
     /*
@@ -168,6 +168,12 @@ fun main(args: Array<String>) {
     Answer:
     ⌥ + ⌘ + [ or ⌥ + ⌘ + ]
      */
+    for (i in 0..10) {
+        print(i)
+
+
+        print(1)
+    }
 
     // show the select in popup
     /*
@@ -241,6 +247,13 @@ fun main(args: Array<String>) {
     ⌃ + ⌃
      */
 
+    // Debug shortcuts
+
+    // Show services running
+    /*
+    Answer:
+    ⌘ + 8
+     */
 }
 
 private fun hello(name: String){
