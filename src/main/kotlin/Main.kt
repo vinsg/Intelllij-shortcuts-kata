@@ -9,7 +9,8 @@ fun main(args: Array<String>) {
     // Fix this
     /*
     Answer:
-    Alt + enter Suggestions for error correction
+    ⌥ + ⏎
+    Suggestions for error correction
      */
     fun error(): HashMap<Int, String> {
         val strings: HashMap<Int, String> = HashMap<Int, String>
@@ -34,10 +35,12 @@ fun main(args: Array<String>) {
     F3
      */
 
-    // Open side tool window
+    // Panel navigation
+
+    // Open the Project tool window
     /*
     Answer:
-    ⌘+1 Focus the Project tool window
+    ⌘ + 1
      */
 
     // Change window size
@@ -49,15 +52,38 @@ fun main(args: Array<String>) {
     // View recent opened files
     /*
     Answer:
-    ⌘+E View recent files
+    ⌘ + E
      */
 
-    // Go to declaration
+    // Show the select in popup
     /*
     Answer:
-    ⌘ + B Go To Declaration
+    ⌥ + f1
+     */
+
+    // Show code structure
+    /*
+    Answer:
+    ⌘ + f12
+     */
+
+    // Go to definition
+    /*
+    Answer:
+    ⌘ + B
      */
     val hello: Exception = java.lang.Exception()
+
+    // Go to function usage
+    /*
+    Answer:
+    ⌘ + B
+     */
+    fun bar(): String {
+        return "hello"
+    }
+
+    bar()
 
     // Find all usage
     /*
@@ -66,13 +92,33 @@ fun main(args: Array<String>) {
      */
     errorNavigate()
 
+    // Open or Focus on Find window
+    /*
+    Answer:
+    ⌘ + 3
+     */
+
     // Collapse bottom navigation bar
     /*
     Answer:
     ⇧ + esc
      */
 
-    // Go to usage of function
+    // Show parameter info for a function
+    /*
+    Answer:
+    ⌘ + p
+     */
+    println()
+
+    // Quick Documentation lookup
+    /*
+   Answer:
+   F1
+    */
+    println()
+
+    // Go to definition
     /*
     Answer:
      ⌘ + B
@@ -114,6 +160,8 @@ fun main(args: Array<String>) {
 
     }
 
+    bar()
+
     // Go back to previous location
     /*
     Answer:
@@ -149,20 +197,6 @@ fun main(args: Array<String>) {
      */
     println()
 
-    // Show parameter info for a function
-    /*
-    Answer:
-    ⌘ + p
-     */
-    println()
-
-    // Quick Documentation lookup
-     /*
-    Answer:
-    F1
-     */
-    println()
-
     // move to start or end of code block
     /*
     Answer:
@@ -175,24 +209,12 @@ fun main(args: Array<String>) {
         print(1)
     }
 
-    // show the select in popup
-    /*
-    Answer:
-    ⌥ + f1
-     */
-
     // move cursor between functions
     /*
     Answer:
     ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
      */
     fun fooBarWo() = "foo"
-
-    // Show code structure
-    /*
-    Answer:
-    ⌘ + f12
-     */
 
     // Execute the current test
     /*
@@ -223,12 +245,6 @@ fun main(args: Array<String>) {
      */
     val delete = "me"
 
-    // Bring git menu
-    /*
-    Answer:
-    ⌃ + v
-     */
-
     // Build project
     /*
     Answer:
@@ -253,6 +269,38 @@ fun main(args: Array<String>) {
     /*
     Answer:
     ⌘ + 8
+     */
+
+    // Git
+
+    // Bring git menu
+    /*
+    Answer:
+    ⌃ + v
+     */
+
+    // Open the Git window
+    /*
+    Answer:
+    ⌘ + 9
+     */
+
+    // Open the Git Commit window
+    /*
+    Answer:
+    ⌘ + 0
+     */
+
+    // Navigate to the next modified line
+    /*
+    Answer:
+    ⌃ + ⌥ + ⇧ + ↓
+     */
+
+    // Navigate to the previous modified line
+    /*
+    Answer:
+    ⌃ + ⌥ + ⇧ + ↑
      */
 }
 
