@@ -37,6 +37,12 @@ fun main(args: Array<String>) {
 
     // Panel navigation
 
+    // Open the terminal
+    /*
+    Answer:
+    ⌥ + f12
+     */
+
     // Open the Project tool window
     /*
     Answer:
