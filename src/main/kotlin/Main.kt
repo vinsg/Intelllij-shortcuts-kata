@@ -211,6 +211,19 @@ fun main(args: Array<String>) {
         print(1)
     }
 
+    // move caret to line start and line end
+    /*
+    Answer:
+    ⌘ + → or ←
+     */
+    println("this is a long line of text")
+
+    // move to outside the start or end of code block.
+    /*
+    Answer:
+    ⌃ + M
+     */
+
     // move cursor between functions
     /*
     Answer:
