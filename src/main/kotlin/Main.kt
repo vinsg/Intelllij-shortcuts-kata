@@ -43,10 +43,22 @@ fun main(args: Array<String>) {
     ⌥ + f12
      */
 
+    // Collapse bottom navigation bar
+    /*
+    Answer:
+    ⇧ + esc
+     */
+
     // Open the Project tool window
     /*
     Answer:
     ⌘ + 1
+     */
+
+    // Open or Focus on Find window
+    /*
+    Answer:
+    ⌘ + 3
      */
 
     // Change window size
@@ -97,18 +109,6 @@ fun main(args: Array<String>) {
     ⌥ + F7
      */
     errorNavigate()
-
-    // Open or Focus on Find window
-    /*
-    Answer:
-    ⌘ + 3
-     */
-
-    // Collapse bottom navigation bar
-    /*
-    Answer:
-    ⇧ + esc
-     */
 
     // Show parameter info for a function
     /*
@@ -196,6 +196,13 @@ fun main(args: Array<String>) {
      */
     val move = "between words"
 
+    // move caret to line start and line end
+    /*
+    Answer:
+    ⌘ + → or ←
+     */
+    println("this is a long line of text")
+
     // Select next occurrence of word
     /*
     Answer:
@@ -216,13 +223,6 @@ fun main(args: Array<String>) {
 
         print(1)
     }
-
-    // move caret to line start and line end
-    /*
-    Answer:
-    ⌘ + → or ←
-     */
-    println("this is a long line of text")
 
     // move to outside the start or end of code block.
     /*
