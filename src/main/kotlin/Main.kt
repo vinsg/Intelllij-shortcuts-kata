@@ -212,6 +212,8 @@ fun main(args: Array<String>) {
 
     println()
 
+    println()
+
     // move to start or end of code block
     /*
     Answer:
@@ -236,6 +238,14 @@ fun main(args: Array<String>) {
     ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
      */
     fun fooBarWo() = "foo"
+
+
+    // change one line and then rename the other functions
+    fun grup() {
+        TODO()
+    }
+
+    grup()
 
     // Execute the current test
     /*
