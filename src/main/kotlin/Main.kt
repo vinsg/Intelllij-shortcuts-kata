@@ -35,6 +35,12 @@ fun main(args: Array<String>) {
     F3
      */
 
+    // Open bookmark popup window
+    /*
+    Answer:
+     ⌘ +F3
+     */
+
     // Panel navigation
 
     // Open the terminal
@@ -79,7 +85,7 @@ fun main(args: Array<String>) {
     ⌥ + f1
      */
 
-    // Show code structure
+    // Show code structure popup
     /*
     Answer:
     ⌘ + f12
@@ -180,15 +186,6 @@ fun main(args: Array<String>) {
     ⌘ + - and ⌘ + =
      */
 
-    // Move line up and down
-    /*
-    Answer:
-    ⌥ + ⇧ + ↑ or ⌥ + ⇧ + ↓
-     */
-    val one = 1
-    val two = 2
-    val three = 3
-
     // Move cursor between words
     /*
     Answer:
@@ -202,17 +199,6 @@ fun main(args: Array<String>) {
     ⌘ + → or ←
      */
     println("this is a long line of text")
-
-    // Select next occurrence of word
-    /*
-    Answer:
-    ⌃ + G
-     */
-    println()
-
-    println()
-
-    println()
 
     // move to start or end of code block
     /*
@@ -239,8 +225,29 @@ fun main(args: Array<String>) {
      */
     fun fooBarWo() = "foo"
 
+    // Code Editing
 
-    // change one line and then rename the other functions
+    // Move line up and down
+    /*
+    Answer:
+    ⌥ + ⇧ + ↑ or ⌥ + ⇧ + ↓
+     */
+    val one = 1
+    val two = 2
+    val three = 3
+
+    // Select next occurrence of word
+    /*
+    Answer:
+    ⌃ + G
+     */
+    println()
+
+    println()
+
+    println()
+
+    // change one line and then rename the other function afterward
     fun grup() {
         TODO()
     }
@@ -304,7 +311,7 @@ fun main(args: Array<String>) {
 
     // Git
 
-    // Bring git menu
+    // Bring git operations menu
     /*
     Answer:
     ⌃ + v
@@ -333,6 +340,8 @@ fun main(args: Array<String>) {
     Answer:
     ⌃ + ⌥ + ⇧ + ↑
      */
+
+    // Continue Shortcuts
 }
 
 private fun hello(name: String){
