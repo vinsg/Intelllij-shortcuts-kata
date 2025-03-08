@@ -222,6 +222,7 @@ fun main(args: Array<String>) {
     /*
     Answer:
     ⌃ + ⇧ + ↓ or ⌃ + ⇧ + ↑
+    ⌘ + ⇧ + j or ⌘ + ⇧ + k
      */
     fun fooBarWo() = "foo"
 
