@@ -67,6 +67,12 @@ fun main(args: Array<String>) {
     ⌘ + 3
      */
 
+    // Open Build Panel
+    /*
+    Answer:
+    ⌘ + ⇧ + 9
+     */
+
     // Change window size
     /*
     Answer:
